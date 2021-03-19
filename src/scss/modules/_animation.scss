@@ -1,0 +1,12 @@
+// Navigation links pulsate
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 0 $se-darkgray;
+    }
+    50% {
+        box-shadow: 0 0 8px $se-darkgray;
+    }
+    100% {
+        box-shadow: 0 0 0 $se-darkgray;
+    }
+}
